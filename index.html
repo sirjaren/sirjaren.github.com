@@ -1,14 +1,19 @@
-{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-{% include _includes/head.html %}
-<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-  <header role="banner">{% include _includes/header.html %}</header>
-  <nav role="navigation">{% include _includes/navigation.html %}</nav>
+
+Included file '_includes/head.html' not found in _includes directory
+<body   >
+  <header role="banner">Included file '_includes/header.html' not found in _includes directory</header>
+  <nav role="navigation">Included file '_include/navigation.html' not found in _includes directory</nav>
   <div id="main">
     <div id="content">
-      {{ content | expand_urls: root_url }}
+      
     </div>
   </div>
-  <footer role="contentinfo">{% include _includes/footer.html %}</footer>
-  {% include _includes/after_footer.html %}
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Jaren Stangret -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  Included file '_includes/after_footer.html' not found in _includes directory
 </body>
 </html>
