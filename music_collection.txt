@@ -1,3 +1,15 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Music Collection</title>
+<style type="text/css">
+body { color: #808080; background: #262626; }
+</style>
+</head>
+<body>
+<pre>
 Artist / Album                                                       | Length |   Release   | Source  |  Resolution   | Bit Rate | Type |  Size  | Genre
 ====================================================================================================================================================================================
 10 Years                                                             |        |             |         |               |          |      |        |
@@ -5002,3 +5014,6 @@ myGRAIN                                                              |        | 
     2010 - Ключ К Декабрю                                            |  42:26 | Full Length |      CD | 16bit/44.1kHz |  872kbps | FLAC |  286MB | Doom/Folk Metal
 凶音                                                                 |        |             |         |               |          |      |        |
     2003 - 黄泉呪詞 (Beginning At The End)                           |  45:54 | Full Length |      CD | 16bit/44.1kHz | 1008kbps | FLAC |  338MB | Black Metal
+</pre>
+</body>
+</html>
